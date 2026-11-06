@@ -1,0 +1,15 @@
+{
+  "name": "ai-video-editor-dc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local video editing workspace: Remotion timeline, HyperFrames graphics, FFmpeg and Whisper.",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "doctor": "bash scripts/doctor.sh",
+    "studio": "cd studio && npx --no-install remotion studio --no-open",
+    "preview": "bash scripts/preview.sh",
+    "hyperframes": "hyperframes"
+  },
+  "devDependencies": {"hyperframes": "latest"}
+}
